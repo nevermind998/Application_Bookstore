@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+	<html>
+    <head>
+    <meta charset="UTF-8">
+    <title>Bookstore</title>
+    <link rel="stylesheet" href="css/site.css" />
+	<script src="js/site.js"></script> 
+    </head>
+	<body onload="showGenreWithBooks();loadRole()">
+	<div id="loggerUser"></div>
+    <div id="telo">
+    <div id="header">
+
+    <div id="left">
+     <h1>Today a reader, <br>tomorrow a leader.</h1>
+    <button class="button button1" onclick="ReadFreeBook()">Read free books</button>
+      </div>
+
+    <div id="right">
+
+    <div id="up">
+     <h2>A room without book is like </br> a body without a soul</h2>
+     <button class="button button2" onclick="showGenreWithBooks()">Search books</button>     
+     </div>
+   
+
+    <div id="down">
+    <h2>Something very magical can happen </br> when you read a good book</h2>
+    <button class="button button3" onclick="SearchAuthors()">Search authors</button>
+    </div>
+    </div>
+    </div>
+    
+
+   <div id="between"></div>
+
+   <div id="bodyApp"> </div>
+  
+   <div id="polje"></div>
+   <input type='hidden' id='secret' value='0'>
+
+	<div id="logIn">
+	<img src="images/login.png" alt="Avatar" id="avatar">
+	<input type="text" id="username" placeholder="username"></br></br>
+    <input type="password" id="password" placeholder="password"></br><br>
+    <input type="submit" value="Sign in" onclick="signIn()">  </br>
+	</div>
+	
+</body>
+</html>

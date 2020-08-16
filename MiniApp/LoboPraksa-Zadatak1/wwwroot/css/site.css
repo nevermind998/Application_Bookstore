@@ -1,0 +1,181 @@
+table, th, td {
+  border: 1px solid black;
+}
+#polje
+{
+	 background: white;
+	 color:red;
+}
+
+#logIn
+{
+	width:10%;
+	padding-right:20px;
+	padding-left:20px;
+	padding-top:20px;
+	padding-bottom:20px;
+	position:fixed;
+	bottom:250px;
+	right:40px;
+}
+
+#loggerUser
+{
+	width:10%;
+	padding-right:20px;
+	padding-left:20px;
+	padding-top:20px;
+	padding-bottom:20px;
+	position:fixed;
+	top:10px; 
+	right:20px;
+
+}
+#telo
+{
+   margin:auto;
+   width: 70%;
+   font-size:15px;
+   font-family:"Lucidatypewriter, monospace";
+   color:black;
+}
+
+#header {
+  width: 100%;
+  height: 300px;
+  margin: auto;
+  
+ }
+img{
+  width: 20px;
+  height: 10px;
+border-radius: 8px;
+} 
+
+h1{
+  font-family: Snell Roundhand, cursive;
+  color:white;
+  font-size:30px;
+  text-align: center;
+  top:40%;
+  left:25%;
+  padding:0px;
+ }
+
+h2{
+  font-family: Snell Roundhand, cursive;
+  color:white;
+  font-size:18px;
+  text-align: center;
+  top:40%;
+  left:25%;
+  padding:0px;
+ }
+
+#left
+{
+ float:left;
+ width: 50%;
+ height: 300px;
+ background: rgb(240, 207, 110);
+}
+
+#between
+{
+ width: 100%;
+ height: 50px;
+ background:white;
+}
+
+#right
+{
+  float:right;
+  width: 50%;
+  height: 300px;
+  background: red;
+  padding:0px;
+}
+
+#up
+{
+  width: 100%;
+  height: 150px;
+  background: rgb(212, 80, 23);
+  float:left;
+}
+
+#down
+{
+  width: 100%;
+  height: 150px;
+  float:left;
+  background: rgb(230, 179, 30);
+}
+
+
+.button {
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.button1 {
+  background-color: transparent;
+  color: white;
+  border: 2px solid rgb(212, 80, 23);
+  position:relative;
+  transition: .5s ease;
+  top: 50%;
+  left: 30%;
+}
+
+.button1:hover {
+  background-color:rgb(212, 80, 23);
+  color: white;
+}
+
+.button2 {
+  background-color: transparent;
+  color: white;
+  border: 2px solid rgb(230, 179, 30);
+  position:relative;
+  transition: .5s ease;
+  top: 50%;
+  left: 30%;
+}
+
+.button2:hover {
+  background-color:rgb(230, 179, 30);
+  color: white;
+}
+
+.button3 {
+  background-color: transparent;
+  color: white;
+  border: 2px solid  rgb(240, 207, 110);
+  position:relative;
+  transition: .5s ease;
+  top: 50%;
+  left: 30%;
+}
+
+.button3:hover {
+  background-color: rgb(240, 207, 110);
+  color: white;
+}
+
+
+
+#avatar{
+ height:100px;
+ width:100px;
+ float:right;
+ padding-right:25px;
+}
+
+
