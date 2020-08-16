@@ -312,7 +312,7 @@ function _displayGenreWITHBooks(data) {
 	downloadButton.style.paddingTop="10px";
 	downloadButton.style.fontWeight = "bold";
 	downloadButton.onclick=function(){
-		 const uriDownload = 'GoogleDrive/downloadFile?id='+item.id+'&savePath=C:\\Users\\Nevermind\\Desktop\\download\\'+item.id+'.pdf';		 
+		 const uriDownload = 'GoogleDrive/downloadFile?id='+item.id+'&savePath=C:\\***\Desktop\\download\\'+item.id+'.pdf';		 
 		 fetch(uriDownload)
 		.then()
 		.catch(error => console.error('Unable to get items.', error));
