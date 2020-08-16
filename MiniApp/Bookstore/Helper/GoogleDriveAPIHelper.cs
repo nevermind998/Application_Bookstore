@@ -37,7 +37,7 @@ namespace LoboPraksa_Zadatak1.Helper
                 ClientSecrets secrets = GoogleClientSecrets.Load(stream).Secrets;
 
                 credentials = GoogleWebAuthorizationBroker.AuthorizeAsync(
-                    secrets, scope, "mojgrad2020@gmail.com", CancellationToken.None, null).Result;
+                    secrets, scope, "***@gmail.com", CancellationToken.None, null).Result;
             }
 
             driveService = new DriveService(new BaseClientService.Initializer()
